@@ -3,11 +3,12 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:b9a5f743214ccb69c6072c7d0ee9518049b7c821ba844453d2739de57a7c043c"
+  digest = "1:97c7a67c30d2ab1310b1c8d05ab40792f08f9d0a1a36b31efbf5ecb54ef04ac7"
   name = "github.com/daeMOn63/bitclient"
   packages = ["."]
   pruneopts = ""
-  revision = "bfee94efac35a624089df7c1c0c22fa6fa2c45c8"
+  revision = "2c9b376e5e2e73344f29c04d3fc23dd30cfa1576"
+  source = "github.com/ktsirkou/bitclient"
 
 [[projects]]
   digest = "1:fbf696b8af25bb4a791792b90cab2cfea212fac0ac0307ef72c298c5ebc1638b"
@@ -73,11 +74,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:033d3fdc1e3ca60a53c5cf308598b85244c91289c28f8b32eb6486601d82b3b5"
+  digest = "1:2f5c5fbafbc17ead793c4584c8d6ebbc16cf666d969488a0009a8a6a5008a86f"
   name = "golang.org/x/sys"
   packages = ["unix"]
   pruneopts = ""
-  revision = "9f0b1ff7b46a4014ddb5d4bdb6602a43b882cb27"
+  revision = "d89cdac9e8725f2aefce25fcbfef41134c9ad412"
 
 [solve-meta]
   analyzer-name = "dep"

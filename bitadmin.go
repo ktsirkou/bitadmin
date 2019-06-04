@@ -13,6 +13,7 @@ import (
 	"github.com/daeMOn63/bitadmin/settings"
 	"github.com/fatih/color"
 	"github.com/urfave/cli"
+	"github.com/daeMOn63/bitadmin/commands/project"
 )
 
 func main() {
@@ -37,6 +38,10 @@ func main() {
 		Settings: globalSettings,
 	}
 
+	projectCommand := &project.Command{
+		Settings:globalSettings,
+	}
+
 	userCommand := &user.Command{
 		Settings: globalSettings,
 	}
@@ -52,6 +57,7 @@ func main() {
 	app.Commands = []cli.Command{
 		cacheCommand.GetCommand(),
 		repositoryCommand.GetCommand(),
+		projectCommand.GetCommand(),
 		userCommand.GetCommand(),
 		groupCommand.GetCommand(),
 		hooksCommand.GetCommand(),
